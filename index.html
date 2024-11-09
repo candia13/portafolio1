@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio WEB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Practica Portafolio Web ...</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#perfil">Perfil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Informacion
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#pr1">Proyectos1</a></li>
+                            <li><a class="dropdown-item" href="#pr2">Proyectos2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#frm">Formulario Contacto</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="titulo">
+        <h1>Mi Portafolio</h1>
+    </div>
+
+    <div class="container text-center" id="inicio">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="intro">
+                    <h2>¡Hola! Soy Liz</h2>
+                    <p>Actualmente estudio Ingeniería de Sistemas, combinando mi curiosidad por la tecnología con mi
+                        pasión
+                        por el dibujo. Me gusta explorar el mundo de la programación y seguir aprendiendo, También estoy
+                        aprendiendo
+                        inglés e italiano, soñando con conectar con personas de todo el mundo. Te invito a ver mis
+                        proyectos.</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="img">
+                    <img src="img1.jfif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <div class="d-flex position-relative" id="perfil">
+        <img src="img2.png" class="flex-shrink-0 me-3" alt="" width="400px" style="margin: 1%;">
+        <div>
+            <h5 class="mt-0">Descripción sobre mí</h5>
+            <p>En 2024, decidí comenzar mi carrera en sistemas informáticos, una disciplina que me apasiona por su
+                versatilidad y su capacidad de innovación. Desde el principio, me he sentido atraída por el diseño y
+                desarrollo de videojuegos, así como por la creación de páginas web y aplicaciones. Creo firmemente en la
+                importancia de crear experiencias interactivas y visualmente atractivas, y me esfuerzo por aprender
+                tanto sobre la lógica de programación como sobre el diseño visual.</p>
+            <p>Además de mi formación en informática, tengo una gran experiencia en el dibujo, una habilidad que he
+                desarrollado desde temprana edad. Esta experiencia se extiende tanto al dibujo tradicional como al
+                digital, y considero que mi interés por el arte y la tecnología se complementan para enriquecer mis
+                proyectos creativos.</p>
+            <p>En cuanto a idiomas, tengo conocimientos básicos de inglés e italiano, lo cual me facilita el acceso a
+                recursos y comunidades internacionales, además de mejorar mis habilidades de comunicación en entornos
+                multiculturales.</p>
+            <h5>Habilidades y Herramientas (Básico):</h5>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Herramienta/Lenguaje</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3"><strong>Lenguajes de Programación</strong></td>
+                        <td>Python</td>
+                        <td>Para fundamentos de programación y desarrollo de scripts</td>
+                    </tr>
+                    <tr>
+                        <td>C#</td>
+                        <td>Lenguaje fundamental para comprender la programación a bajo nivel</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Lenguaje esencial para desarrollo web (frontend y backend básico)</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="1"><strong>Entornos de Desarrollo</strong></td>
+                        <td>Visual Studio Code</td>
+                        <td>Editor de código versátil para múltiples lenguajes</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2"><strong>Sistemas Operativos</strong></td>
+                        <td>Linux (Ubuntu)</td>
+                        <td>Conocer el entorno de Linux, utilizado ampliamente en servidores y desarrollo de software
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Windows</td>
+                        <td>Familiaridad con el sistema operativo más común en la mayoría de las empresas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <h5 style="margin-left: 4%;" id="pr1">Proyectos1 (Codigo)</h5>
+    <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">
+                <div class="intro">
+                    <img src="m5.PNG" alt="" width="250px">
+                    <hr>
+                    <p>Tengo experiencia en C#, un lenguaje de programación orientado a objetos que facilita la creación
+                        de aplicaciones. Me permite trabajar de manera estructurada, aplicando
+                        conceptos clave de programación.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="intro">
+                    <img src="m6.PNG" alt="" width="250px">
+                    <hr>
+                    <p>Mis conocimientos incluyen la lógica fundamental de C#, como clases, objetos y estructuras de
+                        control, lo cual me ayuda a abordar problemas complejos y desarrollar soluciones eficientes en
+                        proyectos de software.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="intro">
+                    <img src="m4.PNG" alt="" width="250px">
+                    <hr>
+                    <p>En HTML, comprendo cómo estructurar contenido web de manera organizada, definiendo la jerarquía y
+                        disposición de los elementos de una página para crear una base sólida de cualquier proyecto web.
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="intro">
+                    <img src="m3.PNG" alt="" width="250px">
+                    <hr>
+                    <p>Tengo conocimientos en CSS para aplicar estilos visuales a las páginas web, desde colores y
+                        fuentes hasta diseños basicos, logrando interfaces atractivas y funcionales que mejoran la
+                        experiencia del usuario.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <h5 style="margin-left: 4%;" id="pr2">Proyectos2 (Diseño)</h5>
+    <div class="container overflow-hidden text-center">
+        <div class="row gy-5">
+            <div class="col-6">
+                <div class="p-3">
+                    <img src="m7.PNG" alt="" width="450px">
+                    <hr>
+                    <p>Trabajé en equipo para desarrollar una agenda que permite registrar los datos de una persona. El
+                        código incluye un control de excepciones para asegurar la estabilidad del programa, además de
+                        contar con funciones de búsqueda y la capacidad de mostrar todos los registros almacenados.</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="p-3">
+                    <img src="m8.PNG" alt="" width="450px">
+                    <hr>
+                    <p>Desarrollé un código para calcular los perímetros y áreas de distintas figuras geométricas. El
+                        programa está estructurado para adaptarse a cada figura seleccionada por el usuario, mostrando
+                        una imagen de la figura y los datos necesarios para cada cálculo.</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="p-3">
+                    <img src="m9.PNG" alt="" width="450px">
+                    <hr>
+                    <p>He aprendido a diseñar en HTML y CSS, aportando un toque personal a cada página que desarrollo,
+                        combinando los conocimientos básicos con mi estilo propio para crear interfaces atractivas y
+                        únicas.</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="p-3">
+                    <img src="m10.PNG" alt="" width="450px">
+                    <hr>
+                    <p>Realicé una réplica de una página existente para profundizar en la estructura y componentes de
+                        una página web. Implementé diversos estilos y enlaces a distintas secciones, buscando que el
+                        duplicado fuera lo más completo posible.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <h5 style="margin-left: 4%;" id="frm">Formulario de contacto</h5>
+    <form class="row g-3 was-validated" novalidate style="margin: 4%;">
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltip01" class="form-label">Nombre(s):</label>
+            <input type="text" class="form-control" id="validationTooltip01" required>
+            <div class="valid-tooltip">
+                Valido!
+            </div>
+        </div>
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltip02" class="form-label">Apellidos:</label>
+            <input type="text" class="form-control" id="validationTooltip02" required>
+            <div class="valid-tooltip">
+                Valido!
+            </div>
+        </div>
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltip03" class="form-label">Correo:</label>
+            <input type="email" class="form-control" id="validationTooltip03" required>
+        </div>
+        <div class="col-md-6 position-relative">
+            <label for="validationTextarea" class="form-label">Archivo:</label>
+            <input type="file" class="form-control" aria-label="file example" required>
+            <div class="invalid-feedback">Seleccione un archivo valido</div>
+        </div>
+        <div class="col-md-3 position-relative">
+            <label for="validationTooltip04" class="form-label">Ciudad:</label>
+            <select class="form-select" id="validationTooltip04" required>
+                <option selected disabled value="">Opciones...</option>
+                <option>La Paz</option>
+                <option>Oruro</option>
+                <option>Sucre</option>
+                <option>Cochabamba</option>
+            </select>
+        </div>
+        <div class="col-md-3 position-relative">
+            <label for="validationTooltip05" class="form-label">Celular</label>
+            <input type="number" class="form-control" id="validationTooltip05" required>
+        </div>
+        <div class="col-md-6 position-relative">
+            <label for="validationTextarea" class="form-label">Motivo por el cual manda el formulario:</label>
+            <textarea class="form-control" id="validationTextarea" required></textarea>
+        </div>
+        <div class="col-12">
+            <button type="button" class="btn btn-outline-success">Enviar Formulario</button>
+        </div>
+    </form>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 . Todos los derechos reservados.</p>
+            <div class="social-links">
+                <img src="https://cdn-icons-png.flaticon.com/128/6422/6422200.png" alt="" width="30px">
+                <a href="" target="_blank" class="social-icon">Instagram</a>
+                <img src="https://cdn-icons-png.flaticon.com/128/6422/6422204.png" alt="" width="30px">
+                <a href="" target="_blank" class="social-icon">Pinterest</a>
+                <img src="https://cdn-icons-png.flaticon.com/128/6422/6422199.png" alt="" width="30px">
+                <a href="" target="_blank" class="social-icon">Facebook</a>
+            </div>
+            <br>
+            <img src="https://cdn-icons-png.flaticon.com/128/556/556772.png" alt="" width="100px">
+        </div>
+    </footer>
+
+</body>
+
+</html>
